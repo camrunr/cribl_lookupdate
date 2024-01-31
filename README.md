@@ -3,7 +3,11 @@
 Use cribl_lookupdate to automate lookup file updates. You can either upload a whole new file, or just append a new row. It should work with either self-managed or Cloud Leaders.
 
 ## Requirements:
-* you must have [Cribl python-api-wrapper](https://github.com/criblio/python-api-wrapper/) installed
+* python 3
+* requests module
+* [Cribl python-api-wrapper](https://github.com/criblio/python-api-wrapper/)
+* A working distributed Cribl installation
+   * If it's in the Cloud, you'll need API credentials set-up: Account -> Organization -> API Management
 
 There is a help message if you run with no args.
 

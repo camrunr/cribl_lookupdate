@@ -1,4 +1,14 @@
 #!/usr/bin/python
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "cribl-python-api-wrapper",
+# ]
+#
+# [tool.uv.sources]
+# cribl-python-api-wrapper = { path = "../python-api-wrapper/dist/cribl_python_api_wrapper-1.1.5-py3-none-any.whl" }
+# ///
+
 import argparse
 import getpass
 import json
